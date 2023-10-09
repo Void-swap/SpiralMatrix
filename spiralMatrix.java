@@ -1,4 +1,6 @@
-//imp question asked every t6ime in big MNC
+//Spiral matrix 
+//Given a positive integer n, the task is to generate an n x n matrix filled with integers from 1 to n*n in a spiral order. 
+//The spiral order starts from the top-left corner and moves in a clockwise direction, filling in the numbers row by row.
 
 public class spiralMatrix{
     public static void main(String arg[]){
