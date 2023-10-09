@@ -4,6 +4,7 @@
 
 public class spiralMatrix{
     public static void main(String arg[]){
+        
        int array[][] = {
        {1,2,3,4},
        {5,6,7,8},
@@ -13,10 +14,9 @@ public class spiralMatrix{
     }
 
     public static void spiralMatrixDisplay(int array[][]){
-        int sizeR = array.length;
-        int sizeC = array[0].length;
+       int sizeR = array.length;
+       int sizeC = array[0].length;
 
-        
        int startRow=0;
        int endRow=sizeR-1;
        int startColumn=0;
@@ -44,8 +44,6 @@ public class spiralMatrix{
        }
 
 
-
-       
        startRow++;
        endColumn--;
        startColumn++;
